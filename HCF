@@ -1,0 +1,13 @@
+let hcf;
+const n1= prompt("Enter a first positive integer");
+const n2= prompt("Enter a second positive integer");
+
+
+for(let i==0; i<= n1 &&  i<=n2; i++)
+{
+    if(n1 % i==0 && n2 % i==0)
+{
+      hcf=i;
+}
+}
+console.log("HCF of ${n1} and $(n2) is ${hcf}.");
